@@ -12,6 +12,6 @@ class Program
 
         Console.WriteLine($"Your name is {last_name}, {first_name} {last_name}");
 
-        Console.WriteLine("im taking this course again, so im pushing to github again.")
+        Console.WriteLine("im taking this course again, so im pushing to github again.");
     }
 }

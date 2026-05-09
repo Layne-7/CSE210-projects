@@ -4,18 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("What is your grade percentage?");
-        string userAnswer = Console.ReadLine();
-        int percentage = int.Parse(userAnswer);
+        Console.WriteLine("What is your grade percentage?"); // This prints the message
+        string userAnswer = Console.ReadLine(); // This gets the user answer
+        int percentage = int.Parse(userAnswer); // This turns the user answer into an int
 
-        string letterGrade = "";
+        string letterGrade = ""; // An empty variable that will store a string as it updates
 
-        if (percentage >= 90)
+        if (percentage >= 90) // Conditions are made using parenthesis
         {
             letterGrade = "A";
         }
 
-        else if (percentage >= 80)
+        else if (percentage >= 80) // if percentage is greater than 80, then you get a "B"
         {
             letterGrade = "B";
         }
