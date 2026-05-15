@@ -7,7 +7,7 @@ public class Job // Creating a public class called Job
     public int _startYear; // Creating a public int variable that will get the start year 
     public int _endYear; // Creating a public int variable that will get the end year
 
-    public void Display()
+    public void Display() //function made to "print" the output
     {
         Console.WriteLine($"{_jobTitle} ({_company}) {_startYear}-{_endYear}"); // Displaying the info
     }
