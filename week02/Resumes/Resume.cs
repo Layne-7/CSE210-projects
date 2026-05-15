@@ -11,9 +11,9 @@ public class Resume
         Console.WriteLine($"Name: {_name}"); // This prints the name
         Console.WriteLine("Jobs:"); // This prints the Jobs
 
-        foreach (Job job in _jobs)
+        foreach (Job job in _jobs) // for each item (job) in my list _jobs:
         {
-            job.Display();
+            job.Display(); // print item
         }
     }
 }
